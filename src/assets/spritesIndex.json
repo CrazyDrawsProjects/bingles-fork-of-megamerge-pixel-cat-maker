@@ -59484,13 +59484,13 @@
     "xOffset": 150,
     "yOffset": 1050
   },
-  "acc_tail2SEAWEED": {
-    "spritesheet": "tail2_accessories",
+  "aacc_plant2SEAWEED": {
+    "spritesheet": "plant2_accessories",
     "xOffset": 0,
     "yOffset": 0
   },
-  "acc_tail2DAISY CORSAGE": {
-    "spritesheet": "tail2_accessories",
+  "acc_plant2DAISY CORSAGE": {
+    "spritesheet": "plant2_accessories",
     "xOffset": 150,
     "yOffset": 0
   },
