@@ -59485,12 +59485,12 @@
     "yOffset": 1050
   },
   "aacc_plant2SEAWEED": {
-    "spritesheet": "plant2_accessories",
+    "spritesheet": "tail2_accessories",
     "xOffset": 0,
     "yOffset": 0
   },
   "acc_plant2DAISY CORSAGE": {
-    "spritesheet": "plant2_accessories",
+    "spritesheet": "tail2_accessories",
     "xOffset": 150,
     "yOffset": 0
   },
