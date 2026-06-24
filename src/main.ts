@@ -121,8 +121,23 @@ function enforcePeltncolorConstraint(changedSource: 'pelt' | 'color') {
       // If person chooses a non-vanilla pelt, reset color to a vanilla one
       colourSelect.value = "GREY";
     } else {
-      // If user chose a nonvanillacolor, reset pelt to a vanilla one (e.g., SingleColour)
+      // If user chooses a nonvanillacolor, reset pelt to a vanilla one
       peltNameSelect.value = "SingleColour";
+    }
+  }
+}
+
+function enforcePeltncolortortieConstraint(changedSource: 'tortiepattern' | 'tortiecolor') {
+  const selectedtortiePattern = tortiePatternSelect.selectedOptions[0];
+  const selectedtortieColor = tortieColourSelect.selectedOptions[0];
+
+  if (selectedtortiePattern?.id === "nonvanillapelttortie" && selectedtortieColor?.id === "nonvanillacolortortie") {
+    if (changedSource === 'tortiepattern') {
+      // If person chooses a non-vanilla pelt, reset color to a vanilla one
+      tortieColourSelect.value = "GINGER";
+    } else {
+      // If user chooses a nonvanillacolor, reset pelt to a vanilla one
+      tortiePatternSelect.value = "SingleColour";
     }
   }
 }
@@ -328,9 +343,15 @@ catSprite.addEventListener("dragstart", (ev) => {
 isTortieCheckbox.addEventListener("change", () => {
   redrawCat();
 });
-tortieColourSelect.addEventListener("change", () => redrawCat());
+tortieColourSelect.addEventListener("change", () => {
+  enforcePeltncolortortieConstraint('tortiecolor');
+  redrawCat();
+});
 tortieMaskSelect.addEventListener("change", () => redrawCat());
-tortiePatternSelect.addEventListener("change", () => redrawCat());
+tortiePatternSelect.addEventListener("change", () => {
+  enforcePeltncolortortieConstraint('tortiepattern');
+  redrawCat();
+});
 
 spriteNumberSelect.addEventListener("change", () => redrawCat());
 peltNameSelect.addEventListener("change", () => {
@@ -368,7 +389,7 @@ getElementByUniqueClassName("randomize-all-button")?.addEventListener(
     // Randomize pelt and color with constraint
     randomizeSelected(peltNameSelect);
     randomizeSelected(colourSelect);
-     // If it lands on two non-vanilla items, re-randomize color 
+    // If it lands on two non-vanilla items, re-randomize color 
     // until it is a vanilla color
     while (
       peltNameSelect.selectedOptions[0].id === "nonvanillapelt" && 
@@ -376,8 +397,17 @@ getElementByUniqueClassName("randomize-all-button")?.addEventListener(
     ) {
       randomizeSelected(colourSelect);
     }
+     // Randomize tortie-pattern and tortie-color with constraint
     randomizeSelected(tortiePatternSelect);
     randomizeSelected(tortieColourSelect);
+    // If it lands on two non-vanilla items, re-randomize color 
+    // until it is a vanilla color
+    while (
+      tortiePatternSelect.selectedOptions[0].id === "nonvanillapelttortie" && 
+      tortieColourSelect.selectedOptions[0].id === "nonvanillacolortortie"
+    ) {
+      randomizeSelected(tortieColourSelect);
+    }
     randomizeSelected(tortieMaskSelect);
     if (Math.random() <= 0.5) {
       isTortieCheckbox.checked = true;
