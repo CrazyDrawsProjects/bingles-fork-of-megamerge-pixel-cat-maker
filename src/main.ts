@@ -112,6 +112,21 @@ function selectByValue(select: HTMLSelectElement, value: string | null, ignoreNu
   }
 }
 
+function enforcePeltncolorConstraint(changedSource: 'pelt' | 'color') {
+  const selectedPelt = peltNameSelect.selectedOptions[0];
+  const selectedColor = colourSelect.selectedOptions[0];
+
+  if (selectedPelt?.id === "nonvanillapelt" && selectedColor?.id === "nonvanillacolor") {
+    if (changedSource === 'pelt') {
+      // If person chooses a non-vanilla pelt, reset color to a vanilla one
+      colourSelect.value = "GREY";
+    } else {
+      // If user chose a nonvanillacolor, reset pelt to a vanilla one (e.g., SingleColour)
+      peltNameSelect.value = "SingleColour";
+    }
+  }
+}
+
 function setFormFromObject(data: CatData) {
   isTortieCheckbox.checked = data.isTortie;
   shadingCheckbox.checked = data.shading;
@@ -318,8 +333,15 @@ tortieMaskSelect.addEventListener("change", () => redrawCat());
 tortiePatternSelect.addEventListener("change", () => redrawCat());
 
 spriteNumberSelect.addEventListener("change", () => redrawCat());
-peltNameSelect.addEventListener("change", () => redrawCat());
-colourSelect.addEventListener("change", () => redrawCat());
+peltNameSelect.addEventListener("change", () => {
+  enforcePeltncolorConstraint('pelt');
+  redrawCat();
+});
+colourSelect.addEventListener("change", () => {
+  enforcePeltncolorConstraint('color');
+  redrawCat();
+});
+
 tintSelect.addEventListener("change", () => redrawCat());
 skinColourSelect.addEventListener("change", () => redrawCat());
 eyeColourSelect.addEventListener("change", () => redrawCat());
@@ -343,8 +365,17 @@ getElementByUniqueClassName("randomize-all-button")?.addEventListener(
     e.preventDefault();
 
     randomizeSelected(spriteNumberSelect);
+    // Randomize pelt and color with constraint
     randomizeSelected(peltNameSelect);
     randomizeSelected(colourSelect);
+     // If it lands on two non-vanilla items, re-randomize color 
+    // until it is a vanilla color
+    while (
+      peltNameSelect.selectedOptions[0].id === "nonvanillapelt" && 
+      colourSelect.selectedOptions[0].id === "nonvanillacolor"
+    ) {
+      randomizeSelected(colourSelect);
+    }
     randomizeSelected(tortiePatternSelect);
     randomizeSelected(tortieColourSelect);
     randomizeSelected(tortieMaskSelect);
