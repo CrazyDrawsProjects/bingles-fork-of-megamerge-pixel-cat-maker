@@ -4079,6 +4079,3966 @@
     "xOffset": 0,
     "yOffset": 0
   },
+  "eyes2TORCH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2ALLIGATOR": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2SHINY VIOLET": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2LAZULI": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2TRUE SILVER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2ORANGE-SILVER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2PINK COPPER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2PIXIE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2PURPLE QUARTZ": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2MARBLE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2PINE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2FAUX HETEROCHROMIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2BERRIES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2BLINDING SUN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2JUICY RED": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2REDPINK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2DIANTHUS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2IRISH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2WINTER BERRY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2WASTELAND": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2SOL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2BLUE GLACIER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 350
+  },
+  "eyes2GLAUCOUS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes2ARIEL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes2SAFFRON": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes2HUCKLEBERRY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 700
+  },
+  "eyes2ULYSSES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 700
+  },
+  "eyes2PINK RUBY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 700
+  },
+  "eyes2RIDGE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 700
+  },
+  "eyes2STORMBRINGER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 700
+  },
+  "eyes2LIME SODA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 700
+  },
+  "eyes2COYOTE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 700
+  },
+  "eyes2OPALESCENCE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 700
+  },
+  "eyes2OBSIDIAN SHADOW": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 700
+  },
+  "eyes2TRANS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 1050
+  },
+  "eyes2VELVET SATIN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 1050
+  },
+  "eyes2COPPER LEAF": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 1050
+  },
+  "eyes2HAUYNE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 1050
+  },
+  "eyes2PINKISH PURPLE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 1050
+  },
+  "eyes2WORM": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 1050
+  },
+  "eyes2AGING COPPER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 1050
+  },
+  "eyes2BUBONIC": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 1050
+  },
+  "eyes2SILVER-GREEN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 1050
+  },
+  "eyes2FAIRY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 1050
+  },
+  "eyes2TEAL2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 1400
+  },
+  "eyes2DEEP OCEAN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 1400
+  },
+  "eyes2MERCY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 1400
+  },
+  "eyes2SUNNY BROWN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 1400
+  },
+  "eyes2SOFT SHIMMER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 1400
+  },
+  "eyes2IKEA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 1400
+  },
+  "eyes2COINS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 1400
+  },
+  "eyes2DIZZY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 1400
+  },
+  "eyes2RAVER GREEN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 1400
+  },
+  "eyes2MINTY FRESH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 1400
+  },
+  "eyes2BILLFISH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 1400
+  },
+  "eyes2ALMONDS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 1400
+  },
+  "eyes2BISTRE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 1750
+  },
+  "eyes2MISTY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 1750
+  },
+  "eyes2WISTERIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 1750
+  },
+  "eyes2FAUX HETEROCHROMIA2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 1750
+  },
+  "eyes2SHINING SILVER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 1750
+  },
+  "eyes2COVELLITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 1750
+  },
+  "eyes2DARK MAGENTA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 1750
+  },
+  "eyes2GOLDEN GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 1750
+  },
+  "eyes2CROW": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 1750
+  },
+  "eyes2BLUE HAZE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 1750
+  },
+  "eyes2FAUX HETEROCHROMIA3": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 2100
+  },
+  "eyes2WARM GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 2100
+  },
+  "eyes2EXPOSED BRONZE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 2100
+  },
+  "eyes2WARM TARNISH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 2100
+  },
+  "eyes2HAWKFROST": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 2100
+  },
+  "eyes2FAUX HETEROCHROMIA4": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 2100
+  },
+  "eyes2LUPINE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 2100
+  },
+  "eyes2MIDNIGHT SHADOW": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 2100
+  },
+  "eyes2CAPRISUN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 2100
+  },
+  "eyes2TARNISH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 2100
+  },
+  "eyes2FAUX HETEROCHROMIA5": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 2100
+  },
+  "eyes2BATESIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 2100
+  },
+  "eyes2FADED INK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 2450
+  },
+  "eyes2FAUX HETEROCHROMIA6": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 2450
+  },
+  "eyes2HEMOPIGMENT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 2450
+  },
+  "eyes2ORANGE SODA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 2450
+  },
+  "eyes2ICY CYAN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 2450
+  },
+  "eyes2LILYPAD": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 2450
+  },
+  "eyes2RUSTED BLUE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 2450
+  },
+  "eyes2RUSTED NIGHT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 2450
+  },
+  "eyes2EVENING": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 2450
+  },
+  "eyes2BLACKBIRD": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 2450
+  },
+  "eyes2HYDRANGEA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 2800
+  },
+  "eyes2TURQUOISE2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 2800
+  },
+  "eyes2PALE PRIMARY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 2800
+  },
+  "eyes2SAFARI": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 2800
+  },
+  "eyes2SOMETHING WICKED": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 2800
+  },
+  "eyes2SHINY BROWN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 2800
+  },
+  "eyes2RED GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 2800
+  },
+  "eyes2PRINCESS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 2800
+  },
+  "eyes2PALE INDIGO": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 2800
+  },
+  "eyes2ICEBERG": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 2800
+  },
+  "eyes2CROCODILE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 2800
+  },
+  "eyes2STARLESS NIGHT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 2800
+  },
+  "eyes2NEON TEAL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 3150
+  },
+  "eyes2FAUX HETEROCHROMIA7": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 3150
+  },
+  "eyes2SILVER-PINK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 3150
+  },
+  "eyes2MACHINE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 3150
+  },
+  "eyes2FAUX HETEROCHROMIA8": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 3150
+  },
+  "eyes2IRON RUBY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 3150
+  },
+  "eyes2FOSSIL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 3150
+  },
+  "eyes2SHARK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 3150
+  },
+  "eyes2HAMMERHEAD": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 3150
+  },
+  "eyes2GRAY BROWN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 3150
+  },
+  "eyes2SUNSET SEA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 3500
+  },
+  "eyes2CARAMEL DIP": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 3500
+  },
+  "eyes2BLUE-GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 3500
+  },
+  "eyes2PALEST PINK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 3500
+  },
+  "eyes2SILVERY TEAL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 3500
+  },
+  "eyes2FISHY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 3500
+  },
+  "eyes2CREAMSICLE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 3500
+  },
+  "eyes2WARM SILVER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 3500
+  },
+  "eyes2APOCALYPSE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 3500
+  },
+  "eyes2HEATHER GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 3500
+  },
+  "eyes2BLUE EMBER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 3500
+  },
+  "eyes2SUMMER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 3500
+  },
+  "eyes2DUSTY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 3850
+  },
+  "eyes2BLUE EMBER2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 3850
+  },
+  "eyes2STRANGE CYAN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 3850
+  },
+  "eyes2FADED GOLD": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 3850
+  },
+  "eyes2SILVER-16": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 3850
+  },
+  "eyes2SHERBERT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 3850
+  },
+  "eyes2JADE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 3850
+  },
+  "eyes2OFF-WHITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 3850
+  },
+  "eyes2HAUNTING": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 3850
+  },
+  "eyes2BLOODMOON": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 3850
+  },
+  "eyes2GATORADE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 4200
+  },
+  "eyes2WASP": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 4200
+  },
+  "eyes2GLARE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 4200
+  },
+  "eyes2PASTEL SUMMER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 4200
+  },
+  "eyes2DARKNESS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 4200
+  },
+  "eyes2LASER BEAM": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 4200
+  },
+  "eyes2BRIGHT CYAN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 4200
+  },
+  "eyes2INK JET": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 4200
+  },
+  "eyes2LAST SUNSET": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 4200
+  },
+  "eyes2HOLLYLEAF": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 4200
+  },
+  "eyes2MYSTERY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 4200
+  },
+  "eyes2HADES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 4200
+  },
+  "eyes2ICTERINE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 4550
+  },
+  "eyes2DARK CREAM": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 4550
+  },
+  "eyes2ALIEN BLUES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 4550
+  },
+  "eyes2RASPBERRY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 4550
+  },
+  "eyes2BLEEDING HEART": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 4550
+  },
+  "eyes2BABY BLUE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 4550
+  },
+  "eyes2NEON ORANGE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 4550
+  },
+  "eyes2NEON OPAL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 4550
+  },
+  "eyes2OW THE EDGE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 4550
+  },
+  "eyes2BLUE DRAGON": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 4550
+  },
+  "eyes2FAIRYWREN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 4900
+  },
+  "eyes2REDBRICK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 4900
+  },
+  "eyes2TRUE GREEN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 4900
+  },
+  "eyes2HAREBELL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 4900
+  },
+  "eyes2WYSTERIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 4900
+  },
+  "eyes2ORANGE PASTELS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 4900
+  },
+  "eyes2CAPRISUN2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 4900
+  },
+  "eyes2EMBER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 4900
+  },
+  "eyes2PURPLE PUMPKIN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 4900
+  },
+  "eyes2BRIGHT LIME": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 4900
+  },
+  "eyes2ORANGE SKY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 4900
+  },
+  "eyes2BRIGHT BI": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 4900
+  },
+  "eyes2LIGHT GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 5250
+  },
+  "eyes2SEASIDE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 5250
+  },
+  "eyes2CAIN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 5250
+  },
+  "eyes2FIREYS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 5250
+  },
+  "eyes2KELPIE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 5250
+  },
+  "eyes2CELESTITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 5250
+  },
+  "eyes2PALE ROSE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 5250
+  },
+  "eyes2SOFT PURPLE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 5250
+  },
+  "eyes2SOFT TRANS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 5250
+  },
+  "eyes2ZABA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 5250
+  },
+  "eyes2LAVA TRAP": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 5600
+  },
+  "eyes2CONCH SHELL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 5600
+  },
+  "eyes2LABRADORITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 5600
+  },
+  "eyes2ROMANCE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 5600
+  },
+  "eyes2TRAFFIC": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 5600
+  },
+  "eyes2ALCIDES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 5600
+  },
+  "eyes2JACKOLANTERN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 5600
+  },
+  "eyes2YELLOW SKY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 5600
+  },
+  "eyes2FROGGY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 5600
+  },
+  "eyes2CAVANSITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 5600
+  },
+  "eyes2RED-11": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 5600
+  },
+  "eyes2FADING LIGHT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 5600
+  },
+  "eyes2TORCHLIGHT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 5950
+  },
+  "eyes2CHERRY LEMON": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 5950
+  },
+  "eyes2ROOK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 5950
+  },
+  "eyes2SHIMMER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 5950
+  },
+  "eyes2KYANITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 5950
+  },
+  "eyes2PASTEL BI": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 5950
+  },
+  "eyes2CIPHER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 5950
+  },
+  "eyes2GAIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 5950
+  },
+  "eyes2MINT JADE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 5950
+  },
+  "eyes2PEAR": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 5950
+  },
+  "eyes2SETTING SUN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 6300
+  },
+  "eyes2PURPLE SKY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 6300
+  },
+  "eyes2FADED PINK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 6300
+  },
+  "eyes2SPARKLING SODA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 6300
+  },
+  "eyes2BRIGHT OLIVE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 6300
+  },
+  "eyes2YEW": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 6300
+  },
+  "eyes2MINT LIME": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 6300
+  },
+  "eyes2BLUE FLAX": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 6300
+  },
+  "eyes2RISING DAWN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 6300
+  },
+  "eyes2BEACHBALL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 6300
+  },
+  "eyes2RED-ORANGE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 6300
+  },
+  "eyes2HOLLY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 6300
+  },
+  "eyes2GOLD LEAF": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 6650
+  },
+  "eyes2DARKER JACK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 6650
+  },
+  "eyes2ANOTHER ALBINO": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 6650
+  },
+  "eyes2MERCURY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 6650
+  },
+  "eyes2RED DUSK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 6650
+  },
+  "eyes2PARROT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 6650
+  },
+  "eyes2VOLCANIC ASH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 6650
+  },
+  "eyes2BISEXUAL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 6650
+  },
+  "eyes2BRIGHT ALBINO": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 6650
+  },
+  "eyes2LARKSPUR": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 6650
+  },
+  "eyes2SPOOKY PASTEL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 7000
+  },
+  "eyes2RIDDLE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 7000
+  },
+  "eyes2HYDRANGEA2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 7000
+  },
+  "eyes2BLITZ": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 7000
+  },
+  "eyes2SINISTER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 7000
+  },
+  "eyes2DOVE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 7000
+  },
+  "eyes2OLD WORLD BLUES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 7000
+  },
+  "eyes2BENITOITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 7000
+  },
+  "eyes2RED-40": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 7000
+  },
+  "eyes2CRATER LAKE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 7000
+  },
+  "eyes2BLUE FIRE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 7000
+  },
+  "eyes2GRIM": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 7000
+  },
+  "eyes2FAUX GRASS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 7350
+  },
+  "eyes2IDIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 7350
+  },
+  "eyes2DIAMOND": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 7350
+  },
+  "eyes2SILVER CYAN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 7350
+  },
+  "eyes2RUBY SAPPHIRE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 7350
+  },
+  "eyes2SPOOKY NIGHT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 7350
+  },
+  "eyes2PINK-SILVER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 7350
+  },
+  "eyes2SHINY VELVET": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 7350
+  },
+  "eyes2SYNTHWAVE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 7350
+  },
+  "eyes2CUCUMBER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 7350
+  },
+  "eyes2BOYSENBERRY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 7700
+  },
+  "eyes2SOFT MAROON": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 7700
+  },
+  "eyes2NEON GRAY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 7700
+  },
+  "eyes2FRESH PUMPKIN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 7700
+  },
+  "eyes2ALMOST BLUE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 7700
+  },
+  "eyes2PINK-BROWN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 7700
+  },
+  "eyes2SUNDOWN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 7700
+  },
+  "eyes2SEAL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 7700
+  },
+  "eyes2PLATINUM2": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 7700
+  },
+  "eyes2PEACHY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 7700
+  },
+  "eyes2MALLEUS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 7700
+  },
+  "eyes2UMBER": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 7700
+  },
+  "eyes2ORANGE-PINK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 8050
+  },
+  "eyes2SNAPDRAGON": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 8050
+  },
+  "eyes2BLACKPINK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 8050
+  },
+  "eyes2CHRYSOCOLLA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 8050
+  },
+  "eyes2PINK-ISH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 8050
+  },
+  "eyes2ICHOR": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 8050
+  },
+  "eyes2PINK PEONY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 8050
+  },
+  "eyes2CHINCHILLA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 8050
+  },
+  "eyes2SMITHSONITE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 8050
+  },
+  "eyes2PETUNIA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 8050
+  },
+  "eyes2SWEETTOOTH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 8400
+  },
+  "eyes2ARTICHOKE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 8400
+  },
+  "eyes2PRINTER INK": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 8400
+  },
+  "eyes2MANGROVE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 8400
+  },
+  "eyes2FALLOUT": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 8400
+  },
+  "eyes2EDELWEISS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 8400
+  },
+  "eyes2GRAPE SODA": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 8400
+  },
+  "eyes2VOID": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 8400
+  },
+  "eyes2FADED GREEN": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 8400
+  },
+  "eyes2BLACK OPAL": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 8400
+  },
+  "eyes2BURNT BLUE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1500,
+    "yOffset": 8400
+  },
+  "eyes2SOFT RED": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1650,
+    "yOffset": 8400
+  },
+  "eyes2NIGHTWATCH": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 0,
+    "yOffset": 8750
+  },
+  "eyes2KELP FOREST": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 150,
+    "yOffset": 8750
+  },
+  "eyes2MIDNIGHT VELVET": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 300,
+    "yOffset": 8750
+  },
+  "eyes2BUBBLES": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 450,
+    "yOffset": 8750
+  },
+  "eyes2HOT CHOCOLATE": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 600,
+    "yOffset": 8750
+  },
+  "eyes2FADED INDIGO": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 750,
+    "yOffset": 8750
+  },
+  "eyes2CHAOS": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 900,
+    "yOffset": 8750
+  },
+  "eyes2MIKU": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1050,
+    "yOffset": 8750
+  },
+  "eyes2HONEYBERRY": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1200,
+    "yOffset": 8750
+  },
+  "eyes2RED VELVET": {
+    "spritesheet": "stareyesmerged",
+    "xOffset": 1350,
+    "yOffset": 8750
+  },
+  "eyes2TRADITIONAL LUNA PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2TRADITIONAL SOL PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2TRADITIONAL ABYSSAL PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2TRADITIONAL ZENITH PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2TRADITIONAL HARVEST PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2TRADITIONAL COGWHEEL PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2TRADITIONAL METROPOLIS": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2VIBRANT LUNA PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2VIBRANT SOL PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2VIBRANT ABYSSAL PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2VIBRANT ZENITH PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2VIBRANT HARVEST PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2VIBRANT COGWHEEL PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2VIBRANT METROPOLIS PB": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2SOLID GOLD": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2MISTLETOE": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2OCEAN WATER": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2PINK EYE": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2SEA GREEN": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2TOOTHPASTE": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2MINT CHOCOLATE": {
+    "spritesheet": "paweyesnothers",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2PRIMAL ARCANE": {
+    "spritesheet": "primaleyes",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes22PRIMAL ARCANE": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2PRIMAL EARTH": {
+    "spritesheet": "primaleyes",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes22PRIMAL EARTH": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2PRIMAL FIRE": {
+    "spritesheet": "primaleyes",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes22PRIMAL FIRE": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2PRIMAL ICE": {
+    "spritesheet": "primaleyes",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes22PRIMAL ICE": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2PRIMAL LIGHT": {
+    "spritesheet": "primaleyes",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes22PRIMAL LIGHT": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2PRIMAL LIGHTNING": {
+    "spritesheet": "primaleyes",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes22PRIMAL LIGHTNING": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2PRIMAL NATURE": {
+    "spritesheet": "primaleyes",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes22PRIMAL NATURE": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2PRIMAL PLAGUE": {
+    "spritesheet": "primaleyes",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes22PRIMAL PLAGUE": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2PRIMAL SHADOW": {
+    "spritesheet": "primaleyes",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes22PRIMAL SHADOW": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes2PRIMAL WATER": {
+    "spritesheet": "primaleyes",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes22PRIMAL WATER": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes2PRIMAL WIND": {
+    "spritesheet": "primaleyes",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes22PRIMAL WIND": {
+    "spritesheet": "primaleyes2",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes2BERBERIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2RANUNCULA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2CAPPARIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2VIOLA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2FUMARIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2PAPAVERA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2MAGNOLIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2POLYGALA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2RESEDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2CISTA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2NYMPHEA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2DIPTEROCARPA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2DILLENIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2AMYGDALA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2ANONA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes2MYRTA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes2TILIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes2PITTOSPORA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 700
+  },
+  "eyes2MALVA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 700
+  },
+  "eyes2SARRACENIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 700
+  },
+  "eyes2DROSERA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 700
+  },
+  "eyes2HIPPOCASTANA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 1050
+  },
+  "eyes2TROPAEOLA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 1050
+  },
+  "eyes2PASSIFLORA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 1050
+  },
+  "eyes2OLACA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 1050
+  },
+  "eyes2CRUCIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 1050
+  },
+  "eyes2LOASA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 1050
+  },
+  "eyes2MALPIGHIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 1050
+  },
+  "eyes2MESEMBRYA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 1400
+  },
+  "eyes2VITA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 1400
+  },
+  "eyes2MARCGRAVIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 1400
+  },
+  "eyes2CLUSIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 1400
+  },
+  "eyes2BOMBA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 1400
+  },
+  "eyes2SAMYDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 1400
+  },
+  "eyes2BIXA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 1400
+  },
+  "eyes2GERANIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 1750
+  },
+  "eyes2COMPOSITA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 1750
+  },
+  "eyes2RHAMNA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 1750
+  },
+  "eyes2OXALIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 1750
+  },
+  "eyes2ARALIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 1750
+  },
+  "eyes2TEREBINTHA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 1750
+  },
+  "eyes2MELIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 1750
+  },
+  "eyes2SAXIFRAGA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 2100
+  },
+  "eyes2LINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 2100
+  },
+  "eyes2CAPRIFOLIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 2100
+  },
+  "eyes2CARYOPHYLLA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 2100
+  },
+  "eyes2LEGUMINOSAE": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 2100
+  },
+  "eyes2CAMELLIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 2100
+  },
+  "eyes2CACTACEA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 2100
+  },
+  "eyes2JASMINEA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 2450
+  },
+  "eyes2LYTHRA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 2450
+  },
+  "eyes2ACANTHA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 2450
+  },
+  "eyes2CRASSULA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 2450
+  },
+  "eyes2RUBIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 2450
+  },
+  "eyes2HYPERICA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 2450
+  },
+  "eyes2LORANTHA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 2450
+  },
+  "eyes2AURANTIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 2800
+  },
+  "eyes2RHIZOPHORA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 2800
+  },
+  "eyes2BORAGINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 2800
+  },
+  "eyes2TAMARICA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 2800
+  },
+  "eyes2MELASTOMA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 2800
+  },
+  "eyes2LECYTHIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 2800
+  },
+  "eyes2VALERIANA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 2800
+  },
+  "eyes2COMBRETA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 3150
+  },
+  "eyes2APOCYNA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 3150
+  },
+  "eyes2DIPSA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 3150
+  },
+  "eyes2STYLIDIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 3150
+  },
+  "eyes2RUTA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 3150
+  },
+  "eyes2SOLANA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 3150
+  },
+  "eyes2PLUMBAGINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 3150
+  },
+  "eyes2LAMIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 3500
+  },
+  "eyes2BEGONIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 3500
+  },
+  "eyes2GROSSULARIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 3500
+  },
+  "eyes2GENTIANA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 3500
+  },
+  "eyes2ERICA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 3500
+  },
+  "eyes2CAMPANULA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 3500
+  },
+  "eyes2POMA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 3500
+  },
+  "eyes2BIGNONIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 3850
+  },
+  "eyes2AMARANTA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 3850
+  },
+  "eyes2VACCINIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 3850
+  },
+  "eyes2ONAGRA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 3850
+  },
+  "eyes2PRIMULA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 3850
+  },
+  "eyes2SAPOTA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 3850
+  },
+  "eyes2LOBELIA": {
+    "spritesheet": "beetlemore",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2MYRSINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 4200
+  },
+  "eyes2PORTULA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 4200
+  },
+  "eyes2PLANTAGINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 4200
+  },
+  "eyes2ELAEAGNA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 4200
+  },
+  "eyes2OLEA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 4200
+  },
+  "eyes2POLEMONIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 4200
+  },
+  "eyes2ORCHIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 4200
+  },
+  "eyes2EUPHORBIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 4550
+  },
+  "eyes2SCROPHULARIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 4550
+  },
+  "eyes2CONVOLVULA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 4550
+  },
+  "eyes2MUSA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 4550
+  },
+  "eyes2UTRICULARIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 4550
+  },
+  "eyes2UMBELLA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 4550
+  },
+  "eyes2PROTEA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 4550
+  },
+  "eyes2GOODENIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 4900
+  },
+  "eyes2THYMELA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 4900
+  },
+  "eyes2URTICA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 4900
+  },
+  "eyes2OROBANCHA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 4900
+  },
+  "eyes2HYDROPHYLLA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 4900
+  },
+  "eyes2AMARYLLIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 4900
+  },
+  "eyes2CONIFERA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 4900
+  },
+  "eyes2PHYTOLACCA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 5250
+  },
+  "eyes2PAEONIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 5250
+  },
+  "eyes2IRIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 5250
+  },
+  "eyes2DIOSCORA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 5250
+  },
+  "eyes2GESNERIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 5250
+  },
+  "eyes2SANTALA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 5250
+  },
+  "eyes2HYDROCHARIDA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 5250
+  },
+  "eyes2ZINGIBERA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 5600
+  },
+  "eyes2ALISMA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 5600
+  },
+  "eyes2POLYGONA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 5600
+  },
+  "eyes2NYCTAGINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 5600
+  },
+  "eyes2BROMELIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 5600
+  },
+  "eyes2SMILA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 5600
+  },
+  "eyes2EBENA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 5600
+  },
+  "eyes2ROSA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 0,
+    "yOffset": 5950
+  },
+  "eyes2LILIA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 150,
+    "yOffset": 5950
+  },
+  "eyes2JUNCA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 300,
+    "yOffset": 5950
+  },
+  "eyes2VERBENA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 450,
+    "yOffset": 5950
+  },
+  "eyes2HAEMODORA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 600,
+    "yOffset": 5950
+  },
+  "eyes2COMMELINA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 750,
+    "yOffset": 5950
+  },
+  "eyes2COLCHICA": {
+    "spritesheet": "cs_eyes",
+    "xOffset": 900,
+    "yOffset": 5950
+  },
+  "eyes2YELLOW": {
+    "spritesheet": "eyes2",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2AMBER": {
+    "spritesheet": "eyes2",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2HAZEL": {
+    "spritesheet": "eyes2",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2PALEGREEN": {
+    "spritesheet": "eyes2",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2GREEN": {
+    "spritesheet": "eyes2",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2BLUE": {
+    "spritesheet": "eyes2",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2DARKBLUE": {
+    "spritesheet": "eyes2",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2GREY": {
+    "spritesheet": "eyes2",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2CYAN": {
+    "spritesheet": "eyes2",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2EMERALD": {
+    "spritesheet": "eyes2",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2HEATHERBLUE": {
+    "spritesheet": "eyes2",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2SUNLITICE": {
+    "spritesheet": "eyes2",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2COPPER": {
+    "spritesheet": "eyes2",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2SAGE": {
+    "spritesheet": "eyes2",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2COBALT": {
+    "spritesheet": "eyes2",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2PALEBLUE": {
+    "spritesheet": "eyes2",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2BRONZE": {
+    "spritesheet": "eyes2",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2SILVER": {
+    "spritesheet": "eyes2",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2PALEYELLOW": {
+    "spritesheet": "eyes2",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2GOLD": {
+    "spritesheet": "eyes2",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2GREENYELLOW": {
+    "spritesheet": "eyes2",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2SUNSET-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 1350,
+    "yOffset": 350
+  },
+  "eyes2RED-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 1500,
+    "yOffset": 350
+  },
+  "eyes2ORANGE-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 1650,
+    "yOffset": 350
+  },
+  "eyes2PURPLE-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes2PINK-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes2LILAC-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes2LAVENDER-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 450,
+    "yOffset": 700
+  },
+  "eyes2VIOLET-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 600,
+    "yOffset": 700
+  },
+  "eyes2ROSE-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 750,
+    "yOffset": 700
+  },
+  "eyes2BLUSH": {
+    "spritesheet": "eyes2",
+    "xOffset": 900,
+    "yOffset": 700
+  },
+  "eyes2HOTPINK": {
+    "spritesheet": "eyes2",
+    "xOffset": 1050,
+    "yOffset": 700
+  },
+  "eyes2SALMON": {
+    "spritesheet": "eyes2",
+    "xOffset": 1200,
+    "yOffset": 700
+  },
+  "eyes2CORAL": {
+    "spritesheet": "eyes2",
+    "xOffset": 1350,
+    "yOffset": 700
+  },
+  "eyes2SCARLET": {
+    "spritesheet": "eyes2",
+    "xOffset": 1500,
+    "yOffset": 700
+  },
+  "eyes2SUNRISE": {
+    "spritesheet": "eyes2",
+    "xOffset": 1650,
+    "yOffset": 700
+  },
+  "eyes2MIDNIGHT-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 0,
+    "yOffset": 1050
+  },
+  "eyes2PALE": {
+    "spritesheet": "eyes2",
+    "xOffset": 150,
+    "yOffset": 1050
+  },
+  "eyes2LIGHTRED": {
+    "spritesheet": "eyes2",
+    "xOffset": 300,
+    "yOffset": 1050
+  },
+  "eyes2LIGHTORANGE": {
+    "spritesheet": "eyes2",
+    "xOffset": 450,
+    "yOffset": 1050
+  },
+  "eyes2DARKORANGE": {
+    "spritesheet": "eyes2",
+    "xOffset": 600,
+    "yOffset": 1050
+  },
+  "eyes2DARKPURPLE": {
+    "spritesheet": "eyes2",
+    "xOffset": 750,
+    "yOffset": 1050
+  },
+  "eyes2LIGHTPURPLE": {
+    "spritesheet": "eyes2",
+    "xOffset": 900,
+    "yOffset": 1050
+  },
+  "eyes2DARKPINK": {
+    "spritesheet": "eyes2",
+    "xOffset": 1050,
+    "yOffset": 1050
+  },
+  "eyes2LIGHTPINK": {
+    "spritesheet": "eyes2",
+    "xOffset": 1200,
+    "yOffset": 1050
+  },
+  "eyes2DARKGREEN": {
+    "spritesheet": "eyes2",
+    "xOffset": 1350,
+    "yOffset": 1050
+  },
+  "eyes2DARKYELLOW": {
+    "spritesheet": "eyes2",
+    "xOffset": 1500,
+    "yOffset": 1050
+  },
+  "eyes2FIRE": {
+    "spritesheet": "eyes2",
+    "xOffset": 1650,
+    "yOffset": 1050
+  },
+  "eyes2BLURPLE": {
+    "spritesheet": "eyes2",
+    "xOffset": 0,
+    "yOffset": 1400
+  },
+  "eyes2DARKHAZEL": {
+    "spritesheet": "eyes2",
+    "xOffset": 150,
+    "yOffset": 1400
+  },
+  "eyes2LUNAR": {
+    "spritesheet": "eyes2",
+    "xOffset": 300,
+    "yOffset": 1400
+  },
+  "eyes2MINTCHOCOLATE": {
+    "spritesheet": "eyes2",
+    "xOffset": 450,
+    "yOffset": 1400
+  },
+  "eyes2FLOWERFROST": {
+    "spritesheet": "eyes2",
+    "xOffset": 600,
+    "yOffset": 1400
+  },
+  "eyes2SEAGREEN": {
+    "spritesheet": "eyes2",
+    "xOffset": 750,
+    "yOffset": 1400
+  },
+  "eyes2BLOOM": {
+    "spritesheet": "eyes2",
+    "xOffset": 900,
+    "yOffset": 1400
+  },
+  "eyes2MINT-P": {
+    "spritesheet": "eyes2",
+    "xOffset": 1050,
+    "yOffset": 1400
+  },
+  "eyes2REDROSE": {
+    "spritesheet": "eyes2",
+    "xOffset": 1200,
+    "yOffset": 1400
+  },
+  "eyes2DARKRED": {
+    "spritesheet": "eyes2",
+    "xOffset": 1350,
+    "yOffset": 1400
+  },
+  "eyes2COOLBOW": {
+    "spritesheet": "eyes2",
+    "xOffset": 1500,
+    "yOffset": 1400
+  },
+  "eyes2WARMBOW": {
+    "spritesheet": "eyes2",
+    "xOffset": 1650,
+    "yOffset": 1400
+  },
+  "eyes2ROSE": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2ALGAE": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2SEAFOAM": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2LIGHT FLAME": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2CLOUDY": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2RED": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2TURQUOISE": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2SWAMP": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2RAINY": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2AQUAMARINE": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2EARTH": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2PUMPKIN": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2LILAC": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2PERIWINKLE": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2VIOLET": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2POND": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2DIRT": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2BROWN": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2CEDAR": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2CHRISTMAS": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2COTTON CANDY": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2VALENTINE": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1350,
+    "yOffset": 350
+  },
+  "eyes2FIREWORK": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1500,
+    "yOffset": 350
+  },
+  "eyes2LUCKY": {
+    "spritesheet": "beetleeyes",
+    "xOffset": 1650,
+    "yOffset": 350
+  },
+  "eyes2PINWHEEL": {
+    "spritesheet": "vickieyes",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2BEE": {
+    "spritesheet": "vickieyes",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2VAST FOREST": {
+    "spritesheet": "vickieyes",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2OBSIDIAN": {
+    "spritesheet": "vickieyes",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2WARPED NYLIUM": {
+    "spritesheet": "vickieyes",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2SCULK": {
+    "spritesheet": "vickieyes",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2COPPER GLOW": {
+    "spritesheet": "vickieyes",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2DESERT": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2CUPID": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2MISSING": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2HESTIA": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2BLOSSOM": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2OVERGROWTH": {
+    "spritesheet": "vickieyes",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2PRIMAL": {
+    "spritesheet": "vickieyes",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2ALLIUM": {
+    "spritesheet": "vickieyes",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2GEM": {
+    "spritesheet": "vickieyes",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2AXOLOTL": {
+    "spritesheet": "vickieyes",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2PARAKEET": {
+    "spritesheet": "vickieyes",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2LUCID DREAM": {
+    "spritesheet": "vickieyes",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2PETRICHOR": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2AZALEA": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2PEARL": {
+    "spritesheet": "vickieyes",
+    "xOffset": 1350,
+    "yOffset": 350
+  },
+  "eyes2TORBIN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2DARKLEAP": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2PASTEL BLUES": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2YELLOW SHEEN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2PUMPKIN ORANGE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2PASTEL YELLOW": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2ALGAE2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2ANGELIC SILVER": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2ANGELIC GREEN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2SPRAYPAINT PUNK": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2CHROME": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2BLACK CAT": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2VELVETY YELLOW": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2PAINT": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2MINTY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2PRETTY BLUE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2LIGHT MINT": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2MINT GUM": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2SUNSHINE": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2WINTERBERRY FOREST": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes2RAINDROP": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes2RED EYE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes2PANTHER": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 700
+  },
+  "eyes2MELON": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 700
+  },
+  "eyes2OXY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 700
+  },
+  "eyes2LILAN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 700
+  },
+  "eyes2LEMONLIME": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 700
+  },
+  "eyes2MOONSHINE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 700
+  },
+  "eyes2DULL": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1350,
+    "yOffset": 700
+  },
+  "eyes2DEMONIC RED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1500,
+    "yOffset": 700
+  },
+  "eyes2DULL GREY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1650,
+    "yOffset": 700
+  },
+  "eyes2VELVETY RED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 1050
+  },
+  "eyes2SHINY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 1050
+  },
+  "eyes2DEMONIC BLUE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 1050
+  },
+  "eyes2BRIGHT VELVET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 1050
+  },
+  "eyes2DULL BLUE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 1050
+  },
+  "eyes2DARK MELON": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 1050
+  },
+  "eyes2RED BERRY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 1050
+  },
+  "eyes2LIGHT BERRY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 1050
+  },
+  "eyes2PAINTED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 1050
+  },
+  "eyes2MELON BERRY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 1400
+  },
+  "eyes2PASTEL YELLOWGREY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 1400
+  },
+  "eyes2DARK MINT": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 1400
+  },
+  "eyes2PASTELS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 1400
+  },
+  "eyes2EMO": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 1400
+  },
+  "eyes2RED LILY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 1400
+  },
+  "eyes2STRAWBERRY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 1400
+  },
+  "eyes2PUMPKIN SEED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 1400
+  },
+  "eyes2ANGELIC PASTELS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 1400
+  },
+  "eyes2SEED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1350,
+    "yOffset": 1400
+  },
+  "eyes2RED ANGELIC": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1500,
+    "yOffset": 1400
+  },
+  "eyes2DEMONIC BLUE2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1650,
+    "yOffset": 1400
+  },
+  "eyes2PASTY YELLOW": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 1750
+  },
+  "eyes2ALBINO2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 1750
+  },
+  "eyes2ANGELIC ALGAE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 1750
+  },
+  "eyes2ANGELIC GOLD": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 1750
+  },
+  "eyes2BLUD": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 1750
+  },
+  "eyes2PASTEL LILAC": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 1750
+  },
+  "eyes2SEASAND": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 1750
+  },
+  "eyes2ANGELIC SEASAND": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 1750
+  },
+  "eyes2FIREY AMBER": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 1750
+  },
+  "eyes2SICKLY GREY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 2100
+  },
+  "eyes2GLOW IN THE DARK": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 2100
+  },
+  "eyes2FRUITY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 2100
+  },
+  "eyes2BLOOD": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 2100
+  },
+  "eyes2PASTEL MINT": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 2100
+  },
+  "eyes2CUTE PASTELS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 2100
+  },
+  "eyes2VALENTINES DAY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 2100
+  },
+  "eyes2CUPID2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 2100
+  },
+  "eyes2CUTE SUNSET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 2100
+  },
+  "eyes2VERY LIGHT BLUE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1350,
+    "yOffset": 2100
+  },
+  "eyes2LIGHT MELON": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1500,
+    "yOffset": 2100
+  },
+  "eyes2SONNE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1650,
+    "yOffset": 2100
+  },
+  "eyes2HOT COCOA": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 2450
+  },
+  "eyes2LIGHTNING DOG": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 2450
+  },
+  "eyes2HEADLIGHTS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 2450
+  },
+  "eyes2GRAPE SEEDS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 2450
+  },
+  "eyes2YELLOW AND BROWN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 2450
+  },
+  "eyes2SEA CORAL": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 2450
+  },
+  "eyes2BLOODY MARY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 2450
+  },
+  "eyes2BLUE CORAL": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 2450
+  },
+  "eyes2RED FOIL": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 2450
+  },
+  "eyes2BRIGHT PUMPKIN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 2800
+  },
+  "eyes2WOWIE MELON": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 2800
+  },
+  "eyes2OCEANIC GOLD": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 2800
+  },
+  "eyes2PAIN": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 2800
+  },
+  "eyes2BERRY JUICE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 2800
+  },
+  "eyes2COTTON CANDY2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 2800
+  },
+  "eyes2PINK SUNSET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 2800
+  },
+  "eyes2EMO SHINE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 2800
+  },
+  "eyes2JUICY BERRY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 2800
+  },
+  "eyes2PURPLE SUNSET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1350,
+    "yOffset": 2800
+  },
+  "eyes2LIGHT RED SUNSET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1500,
+    "yOffset": 2800
+  },
+  "eyes2ANGELIC SUNSET PASTELS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1650,
+    "yOffset": 2800
+  },
+  "eyes2MOONY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 3150
+  },
+  "eyes2EMO MINT": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 3150
+  },
+  "eyes2SEASHELL2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 3150
+  },
+  "eyes2GRASS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 3150
+  },
+  "eyes2PASTEL BEACH": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 3150
+  },
+  "eyes2ANGELIC VELVET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 3150
+  },
+  "eyes2LIGHT MINT CHOC": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 3150
+  },
+  "eyes2DARK ALGAE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 3150
+  },
+  "eyes2ANGELIC": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 3150
+  },
+  "eyes2BURNET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 3500
+  },
+  "eyes2DARK BLACK": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 3500
+  },
+  "eyes2BURNET AMBER": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 3500
+  },
+  "eyes2LIGHT MELON2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 3500
+  },
+  "eyes2OCEANIC SEASHELL": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 3500
+  },
+  "eyes2CARAMEL APPLE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 3500
+  },
+  "eyes2BERRY VELVET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 3500
+  },
+  "eyes2LILAC COFFEE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 3500
+  },
+  "eyes2PASTEL HEADLIGHTS": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 3500
+  },
+  "eyes2EMO WATERMELON": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1350,
+    "yOffset": 3500
+  },
+  "eyes2CRIMSON LAVA": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1500,
+    "yOffset": 3500
+  },
+  "eyes2REVERSE ALBINO": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1650,
+    "yOffset": 3500
+  },
+  "eyes2ALBINO3": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 0,
+    "yOffset": 3850
+  },
+  "eyes2FOIL GOLD": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 150,
+    "yOffset": 3850
+  },
+  "eyes2PINK VELVET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 300,
+    "yOffset": 3850
+  },
+  "eyes2LOL BLUE": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 450,
+    "yOffset": 3850
+  },
+  "eyes2LAVA RED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 600,
+    "yOffset": 3850
+  },
+  "eyes2RED GREY": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 750,
+    "yOffset": 3850
+  },
+  "eyes2NORMAL RED": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 900,
+    "yOffset": 3850
+  },
+  "eyes2RED GREY2": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1050,
+    "yOffset": 3850
+  },
+  "eyes2DARK PINK VELVET": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1200,
+    "yOffset": 3850
+  },
+  "eyes2STARDUST": {
+    "spritesheet": "starcatchermerged",
+    "xOffset": 1350,
+    "yOffset": 3850
+  },
+  "eyes2DARK PINE": {
+    "spritesheet": "beetlemore",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2FALL": {
+    "spritesheet": "beetlemore",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2FOREST FIRE": {
+    "spritesheet": "beetlemore",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2GOLD MOON": {
+    "spritesheet": "beetlemore",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2HALLOWEEN": {
+    "spritesheet": "beetlemore",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2MIDNIGHT": {
+    "spritesheet": "beetlemore",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2MOONSTONE": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2OXIDIZED": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2SNOW": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2BERRY BANANA": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2DAWN SKY": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2TWILIGHT SKY": {
+    "spritesheet": "beetlemore",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2WORMY": {
+    "spritesheet": "beetlemore",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2BLUE HAZEL": {
+    "spritesheet": "beetlemore",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2THUNDERBOLT": {
+    "spritesheet": "beetlemore",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2VOLCANO": {
+    "spritesheet": "beetlemore",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2SEASHELL": {
+    "spritesheet": "beetlemore",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2PARADOX": {
+    "spritesheet": "beetlemore",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2CURSE": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2BLESSING": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2LIME": {
+    "spritesheet": "frfoxy_merged",
+    "xOffset": 1200,
+    "yOffset": 4200
+  },
+  "eyes2PALE BROWN": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1500,
+    "yOffset": 350
+  },
+  "eyes2CRIMSON": {
+    "spritesheet": "beetlemore",
+    "xOffset": 1650,
+    "yOffset": 350
+  },
+  "eyes2DARK HAZEL": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2ROSE GOLD": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2DARK ROSE": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2REVERSE SUNLITICE": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2ICY": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2SUNSET": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2LAVENDER": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2ECLIPSE": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2BLACK": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2MUDDY": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2DARK TURQUOISE": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2BLACKBERRY": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2RUSTY": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2PASTEL": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2AVOCADO": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2PASTEL LAVENDER": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2ALBINO": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2WINTER ROSE": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2PINK": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 900,
+    "yOffset": 350
+  },
+  "eyes2MORNING": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1050,
+    "yOffset": 350
+  },
+  "eyes2DARK BROWN": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1200,
+    "yOffset": 350
+  },
+  "eyes2BAY": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1350,
+    "yOffset": 350
+  },
+  "eyes2NEON GREEN": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1500,
+    "yOffset": 350
+  },
+  "eyes2SEA": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 1650,
+    "yOffset": 350
+  },
+  "eyes2DISCORD": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 0,
+    "yOffset": 700
+  },
+  "eyes2AUTUMN LEAF": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 150,
+    "yOffset": 700
+  },
+  "eyes2RUBY": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 300,
+    "yOffset": 700
+  },
+  "eyes2PHANTOM": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 450,
+    "yOffset": 700
+  },
+  "eyes2RIVER MOSS": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 600,
+    "yOffset": 700
+  },
+  "eyes2WICKED": {
+    "spritesheet": "eragonaeyes",
+    "xOffset": 750,
+    "yOffset": 700
+  },
+  "eyes2BULLET": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2LIGHT YELLOW": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2GOLD ORE": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2FOSSILIZED AMBER": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2DUSKY": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2LICHEN": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2SPRING": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2TREE": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2LEAVES": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2EMERALD ORE": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2HAZELNUT": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2BLUE SKY": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2OCEAN": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2OVERCAST": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2AQUA": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2IRIS": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2ROBIN": {
+    "spritesheet": "towheeeyes",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2GREY SILVER": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2SAND": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2MUSTARD": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2BRONZE ORE": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2TIMBER": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2COPPER ORE": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2FERN": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2APPLE": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2MOSS": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2THICKET": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2PEACOCK": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2OLIVE": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2STORMY BLUE": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2DEPTHS": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2STORMY": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2TEAL": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2INDIGO": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2STEEL": {
+    "spritesheet": "eyes2dark",
+    "xOffset": 750,
+    "yOffset": 350
+  },
+  "eyes2PEACH": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 0,
+    "yOffset": 0
+  },
+  "eyes2DAFFODIL": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 150,
+    "yOffset": 0
+  },
+  "eyes2MARIGOLD": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 300,
+    "yOffset": 0
+  },
+  "eyes2BRASS": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 450,
+    "yOffset": 0
+  },
+  "eyes2DARKAMBER": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 600,
+    "yOffset": 0
+  },
+  "eyes2DAWN SKIES": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 750,
+    "yOffset": 0
+  },
+  "eyes2MINT": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 900,
+    "yOffset": 0
+  },
+  "eyes2CHARTREUSE": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 1050,
+    "yOffset": 0
+  },
+  "eyes2MEADOW": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 1200,
+    "yOffset": 0
+  },
+  "eyes2LEAF": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 1350,
+    "yOffset": 0
+  },
+  "eyes2LIGHT TURQUOISE": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 1500,
+    "yOffset": 0
+  },
+  "eyes2SAP": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 1650,
+    "yOffset": 0
+  },
+  "eyes2ALBINISTIC": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 0,
+    "yOffset": 350
+  },
+  "eyes2COBALT ORE": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 150,
+    "yOffset": 350
+  },
+  "eyes2RAIN": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 300,
+    "yOffset": 350
+  },
+  "eyes2CYAN DYE": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 450,
+    "yOffset": 350
+  },
+  "eyes2PERIWINKLE PURPLE": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 600,
+    "yOffset": 350
+  },
+  "eyes2ICY CRACK": {
+    "spritesheet": "eyes2vivid",
+    "xOffset": 750,
+    "yOffset": 350
+  },
   "eyes2NEO FIRE": {
     "spritesheet": "neos_eyes2",
     "xOffset": 0,
