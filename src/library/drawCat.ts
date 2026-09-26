@@ -246,8 +246,41 @@ async function drawCat(
   }
 
   await drawSprite(`eyes${pelt.eyeColour}`, catSprite, ctx);
-  if (pelt.eyeColour2 !== undefined) {
-    await drawSprite(`eyes2${pelt.eyeColour2}`, catSprite, ctx);
+  if (pelt.eyeColour2 !== undefined && pelt.eyeColour2 !== null) {
+    const hasEyes2Sprite = pelt.eyeColour2.startsWith("LAMP ") ||
+      pelt.eyeColour2.startsWith("ANGEL ") ||
+      pelt.eyeColour2.startsWith("SNAIL ") ||
+      pelt.eyeColour2.includes("-AERIAL") ||
+      pelt.eyeColour2.includes("-AQUATIC") ||
+      pelt.eyeColour2.includes("-DEMON") ||
+      pelt.eyeColour2.includes("-FLORA") ||
+      pelt.eyeColour2.startsWith("NEO ") ||
+      pelt.eyeColour2.startsWith("FLUTTER ") ||
+      pelt.eyeColour2.startsWith("PRIMAL ");
+
+    if (hasEyes2Sprite) {
+      try {
+        await drawSprite(`eyes2${pelt.eyeColour2}`, catSprite, ctx);
+      } catch (err) {
+        // Just in case it fails, gracefully fallback to the mask 
+        await drawMaskedSprite(
+          `eyes${pelt.eyeColour2}`,
+          "heterochromiamask",
+          catSprite,
+          ctx
+        );
+      }
+    } else {
+      // For standard eyes, we only need to draw if the colors differ
+      if (pelt.eyeColour !== pelt.eyeColour2) {
+        await drawMaskedSprite(
+          `eyes${pelt.eyeColour2}`,
+          "heterochromiamask",
+          catSprite,
+          ctx
+        );
+      }
+    }
   }
 
   if (pelt.scars && pelt.scars.length > 0) {
