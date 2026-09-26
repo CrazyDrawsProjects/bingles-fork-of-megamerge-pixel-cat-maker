@@ -1,34 +1,112 @@
 body {
-  max-width: 500px;
-}
+max-width:500px}
 
 form {
-  max-width: 400px;
-}
+max-width:400px}
 
 .form-row {
-  display: flex;
-}
+display:flex}
 
 .form-row label {
-  width: 45%;
-}
+width:45%}
 
 .form-row select {
-  width: 40%;
-}
+width:40%}
 
 .hidden {
-  display: none;
-}
+display:none}
 
 .sharecode-div {
-  padding-top: 10px;
-}
+padding-top:10px}
+
 .sharecode-div textarea {
-  resize: none;
-}
+resize:none}
 
 footer {
-  border-top: 1px solid darkgrey;
+border-top:1px solid darkgrey}
+
+.checkbox-list-container {
+  width:40%;
+  max-height:156px;
+  overflow-y:auto;
+  border:1px solid #8f8f9d;
+  border-radius:6px;
+  padding:12px;
+  display:flex;
+  flex-direction:column;
+  gap:1px;
+  box-sizing:border-box;
+  background-color: #e9e9ed;
 }
+
+.checkbox-list-container label.custom-checkbox-label {
+  width:auto!important;
+margin:0}
+
+.checkbox-group-title {
+  font-weight:700;
+  font-style:italic;
+  font-size:.9rem;
+  font-family: Arial, sans-serif;
+  border-bottom:1px solid;
+  padding-bottom:4px;
+  margin-top:8px;
+  margin-bottom:4px
+}
+
+.checkbox-group-title:first-child {
+  margin-top:0
+}
+
+.custom-checkbox-label {
+  display:flex;
+  align-items:center;
+  cursor:pointer;
+  font-family: Arial, sans-serif;
+  font-size:15px;
+  text-transform:uppercase;
+  -webkit-user-select:none;
+  user-select:none
+}
+
+.custom-checkbox-label input {
+  position:absolute;
+  opacity:0;
+  cursor:pointer;
+  height:0;
+  width:0;
+}
+
+.custom-checkmark {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:12px;
+  height:12px;
+  background-color: #ffffff;
+  border:1px solid #91919f;
+  border-radius:6px;
+  margin-right:12px;
+  flex-shrink:0;
+  position:relative;
+}
+
+.custom-checkbox-label input:checked ~ .custom-checkmark {
+  background-color: #0060df;
+  border-color: #0060df;
+}
+
+.custom-checkmark:after {
+  content:"";
+  position:absolute;
+  display:none;
+  width:4px;
+  height:8px;
+  border:solid #ffffff;
+  border-width:0 3px 3px 0;
+  transform:rotate(45deg);
+  margin-bottom:2px;
+}
+
+.custom-checkbox-label input:checked~.custom-checkmark:after {
+display:block}
