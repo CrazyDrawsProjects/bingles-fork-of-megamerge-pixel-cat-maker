@@ -12,6 +12,7 @@ function getElementByUniqueClassName(className: string): Element {
 
 var catData: CatData;
 
+
 const catSprite = getElementByUniqueClassName(
   "cat-sprite-img",
 ) as HTMLImageElement;
@@ -94,20 +95,22 @@ const sharecodeTextArea = getElementByUniqueClassName(
   "sharecode",
 ) as HTMLTextAreaElement;
 
-function selectByValue(select: HTMLSelectElement, value: string | null, ignoreNull: boolean) {
-  if (value === null) {
-    if (ignoreNull) {
-      return;
-    } else {
-      value = "";
-    }
+function selectByValue(select: HTMLSelectElement, value: string | string[] | null, ignoreNull: boolean) {
+  if (value === null && !ignoreNull) {
+    value = [];
   }
 
+  const targetValues = Array.isArray(value) ? value : [value as string];
+  
   const options = select.options;
-  for (var i = 0; i < options.length; i++) {
+  for (let i = 0; i < options.length; i++) {
     const option = options.item(i)!;
-    if (option.value === value) {
-      select.selectedIndex = i;
+    if (select.multiple) {
+      option.selected = targetValues.includes(option.value);
+    } else {
+      if (option.value === targetValues[0]) {
+        select.selectedIndex = i;
+      }
     }
   }
 }
@@ -143,6 +146,7 @@ function enforcePeltncolortortieConstraint(changedSource: 'tortiepattern' | 'tor
 }
 
 function setFormFromObject(data: CatData) {
+
   isTortieCheckbox.checked = data.isTortie;
   shadingCheckbox.checked = data.shading;
   reverseCheckbox.checked = data.reverse;
@@ -214,13 +218,19 @@ function redrawCat(applyURL: boolean = true) {
   catData.whitePatchesTint = whitePatchesTintSelect.value;
   catData.eyeColour2 =
     eyeColour2Select.value === "" ? null : eyeColour2Select.value;
-  catData.whitePatches =
-    whitePatchesSelect.value === "" ? null : whitePatchesSelect.value;
+  catData.whitePatches = Array.from(whitePatchesSelect.selectedOptions)
+    .map(opt => opt.value)
+    .filter(val => val !== "");
   catData.points = pointsSelect.value === "" ? null : pointsSelect.value;
   catData.vitiligo = vitiligoSelect.value === "" ? null : vitiligoSelect.value;
   catData.accessory =
-    accessorySelect.value === "" ? null : accessorySelect.value;
-  catData.scar = scarSelect.value === "" ? null : scarSelect.value;
+    Array.from(accessorySelect.selectedOptions)
+    .map(opt => opt.value)
+    .filter(val => val !== "");
+  catData.scar =
+    Array.from(scarSelect.selectedOptions)
+    .map(opt => opt.value)
+    .filter(val => val !== "");
   catData.shading = shadingCheckbox.checked;
   catData.reverse = reverseCheckbox.checked;
 
@@ -330,6 +340,17 @@ for (const randomButton of randomButtons) {
       return;
     }
     const select = getElementByUniqueClassName(selectId) as HTMLSelectElement;
+    if (selectId == "white-patches-select") {
+      for (let i = 0; i < select.options.length; i++) select.options[i].selected = false;
+      const validOptions = Array.from(select.options).filter(opt => opt.value !== "");
+      const countToSelect = Math.floor(Math.random() * 2) +1;
+      for (let i = 0; i < countToSelect; i++) {
+        const randomIndex = Math.floor(Math.random() * validOptions.length);
+        validOptions[randomIndex].selected = true;
+      }
+    } else {
+      randomizeSelected(select);
+    }
     randomizeSelected(select);
     redrawCat();
   });
@@ -425,9 +446,17 @@ getElementByUniqueClassName("randomize-all-button")?.addEventListener(
 
     if (Math.random() <= 0.5) {
       if (Math.random() <= 0.5) {
-        randomizeSelected(whitePatchesSelect);
+        for (let i = 0; i < whitePatchesSelect.options.length; i++)
+          whitePatchesSelect.options[i].selected = false;
+        const validWp = Array.from(whitePatchesSelect.options).filter(opt => opt.value !== "");
+        const countWp = Math.floor(Math.random() * 2) + 1;
+        for (let i = 0; i < countWp; i++) {
+          validWp[Math.floor(Math.random() * validWp.length)].selected = true;
+        }
       } else {
-        whitePatchesSelect.selectedIndex = 0;
+        for (let i = 0; i < whitePatchesSelect.options.length; i++) {
+          whitePatchesSelect.options[i].selected = false;
+        }
       }
       if (Math.random() <= 0.5) {
         randomizeSelected(pointsSelect);

@@ -130,12 +130,12 @@ class CatData {
   skinColour: string;
   eyeColour: string;
   eyeColour2: string | null;
-  whitePatches: string | null;
+  whitePatches: string[];
   points: string | null;
   whitePatchesTint: string;
   vitiligo: string | null;
-  accessory: string | null;
-  scar: string | null;
+  accessory: string[];
+  scar: string[];
 
   constructor() {
     this.shading = false;
@@ -156,13 +156,13 @@ class CatData {
     this.eyeColour = "YELLOW";
     this.eyeColour2 = null;
 
-    this.whitePatches = null;
+    this.whitePatches = [];
     this.points = null;
     this.whitePatchesTint = "none";
     this.vitiligo = null;
 
-    this.accessory = null;
-    this.scar = null;
+    this.accessory = [];
+    this.scar = [];
   }
 
   public get name(): string {
@@ -185,11 +185,11 @@ class CatData {
       whitePatchesTint: this.whitePatchesTint,
       eyeColour: this.eyeColour,
       eyeColour2: this.eyeColour2 === null ? undefined : this.eyeColour2,
-      whitePatches: this.whitePatches === null ? undefined : this.whitePatches,
+      whitePatches: this.whitePatches || [],
       points: this.points === null ? undefined : this.points,
       vitiligo: this.vitiligo === null ? undefined : this.vitiligo,
       spritesName: nameToSpritesname[peltName],
-      accessory: this.accessory === null ? undefined : this.accessory,
+      accessory: this.accessory || [],
       reverse: this.reverse,
 
       tortieBase: nameToSpritesname[peltName],
@@ -197,10 +197,16 @@ class CatData {
       tortiePattern: nameToSpritesname[tortiePattern],
       tortieColour: this.tortieColour === null ? undefined : this.tortieColour,
 
-      scars: [],
+      scars: this.scar || [],
     };
     if (this.scar) {
-      pelt["scars"] = [this.scar];
+      pelt["scars"];
+    }
+    if (this.whitePatches) {
+      pelt["whitePatches"];
+    }
+    if (this.accessory) {
+      pelt["accessory"];
     }
 
     return pelt;
@@ -238,33 +244,39 @@ class CatData {
   }
 
   getURL(base: string) {
-    const params = new URLSearchParams({
-      shading: this.shading.toString(),
-      reverse: this.reverse.toString(),
-      isTortie: this.isTortie.toString(),
-      backgroundColour: this.backgroundColour,
+    const params = new URLSearchParams();
 
-      tortieMask: this.tortieMask === null ? "" : this.tortieMask,
-      tortieColour: this.tortieColour === null ? "" : this.tortieColour,
-      tortiePattern: this.tortiePattern === null ? "" : this.tortiePattern,
+    params.append("shading", this.shading.toString());
+    params.append("reverse", this.reverse.toString());
+    params.append("isTortie", this.isTortie.toString());
+    params.append("backgroundColour", this.backgroundColour);
 
-      peltName: this.peltName,
-      spriteNumber: this.spriteNumber.toString(),
-      colour: this.colour,
-      tint: this.tint,
-      skinColour: this.skinColour,
-      eyeColour: this.eyeColour,
-      eyeColour2: this.eyeColour2 === null ? "" : this.eyeColour2,
-      whitePatches: this.whitePatches === null ? "" : this.whitePatches,
-      points: this.points === null ? "" : this.points,
-      whitePatchesTint: this.whitePatches === null ? "" : this.whitePatchesTint,
-      vitiligo: this.vitiligo === null ? "" : this.vitiligo,
-      accessory: this.accessory === null ? "" : this.accessory,
-      scar: this.scar === null ? "" : this.scar,
-      version: "v1",
-    });
-    return new URL(`${base}?${params}`);
-  }
+    params.append("tortieMask", this.tortieMask === null ? "" : this.tortieMask);
+    params.append("tortieColour", this.tortieColour === null ? "" : this.tortieColour);
+    params.append("tortiePattern", this.tortiePattern === null ? "" : this.tortiePattern);
+
+    params.append("peltName", this.peltName);
+    params.append("spriteNumber", this.spriteNumber.toString());
+    params.append("colour", this.colour);
+    params.append("tint", this.tint);
+    params.append("skinColour", this.skinColour);
+    params.append("eyeColour", this.eyeColour);
+    params.append("eyeColour2", this.eyeColour2 === null ? "" : this.eyeColour2);
+    if (this.whitePatches) {
+      this.whitePatches.forEach(patch => params.append("whitePatches", patch));
+    }
+    params.append("points", this.points === null ? "" : this.points);
+    params.append("whitePatchesTint", this.whitePatchesTint);
+    params.append("vitiligo", this.vitiligo === null ? "" : this.vitiligo);
+    if (this.accessory) {
+      this.accessory.forEach(acc => params.append("accessory", acc));
+    }
+    if (this.scar) {
+      this.scar.forEach(s => params.append("scar", s));
+    }
+    params.append("version", "v1");
+    return new URL(`${base}?${params.toString()}`);
+  }
 
   static fromPelt(pelt: Pelt) {
     const spritesName = pelt.tortiePattern as keyof typeof spritesnameToName;
@@ -283,15 +295,14 @@ class CatData {
     catData.tint = pelt.skin;
     catData.eyeColour = pelt.eyeColour;
     catData.eyeColour2 = pelt.eyeColour2 === undefined ? null : pelt.eyeColour2;
-
     catData.whitePatchesTint = pelt.whitePatchesTint;
-    catData.whitePatches =
-      pelt.whitePatches === undefined ? null : pelt.whitePatches;
+    catData.whitePatches = pelt.whitePatches || [];
     catData.points = pelt.points === undefined ? null : pelt.points;
     catData.vitiligo = pelt.vitiligo === undefined ? null : pelt.vitiligo;
 
-    catData.accessory = pelt.accessory === undefined ? null : pelt.accessory;
+    catData.accessory = pelt.accessory || [];
     catData.reverse = pelt.reverse;
+    catData.scar = pelt.scars || [];
 
     catData.tortieMask = pelt.pattern === undefined ? null : pelt.pattern;
     catData.tortiePattern =
@@ -307,12 +318,12 @@ class CatData {
     const params = new URL(url).searchParams;
 
     if (params.get("version") === "v1") {
-      const scar = params.get("scar");
-      const accessory = params.get("accessory");
+      const scar = params.getAll("scar").filter(v => v !== "");
+      const accessory = params.getAll("accessory").filter(v => v !== "");
       const vitiligo = params.get("vitiligo");
       const whitePatchesTint = params.get("whitePatchesTint");
       const points = params.get("points");
-      const whitePatches = params.get("whitePatches");
+      const whitePatches = params.getAll("whitePatches").filter(v => v !== "");
       const eyeColour2 = params.get("eyeColour2");
       const eyeColour = params.get("eyeColour");
       const skinColour = params.get("skinColour");
@@ -408,15 +419,24 @@ class CatData {
     catData.eyeColour2 = data.eye_colour2;
 
     catData.whitePatchesTint = data.white_patches_tint;
-    catData.whitePatches = data.white_patches;
+    const ensureArray = (val: string | string[] | null) => {
+        if (!val) return [];
+        return Array.isArray(val) ? val : [val];
+    };
+    catData.whitePatches = ensureArray(data.white_patches);
     catData.points = data.points;
     catData.vitiligo = data.vitiligo;
-    if (Array.isArray(data.accessory)) {
-      catData.accessory = data.accessory.length === 0 ? null : data.accessory[0];
-    } else {
-      catData.accessory = data.accessory;
-    }
+    const ensureArrayy = (val: string | string[] | null) => {
+        if (!val) return [];
+        return Array.isArray(val) ? val : [val];
+    };
+    catData.accessory = ensureArrayy(data.accessory);
     catData.reverse = data.reverse;
+    const ensureArrayyy = (val: string | string[] | null) => {
+        if (!val) return [];
+        return Array.isArray(val) ? val : [val];
+    };
+    catData.scar = ensureArrayyy(data.scars);
 
     catData.tortieMask = catData.isTortie ? data.pattern : null;
     catData.tortiePattern = 
