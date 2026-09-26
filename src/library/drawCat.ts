@@ -304,16 +304,10 @@ async function drawCat(
         await drawSprite(`collars${acc}`, catSprite, ctx);
       } else if (peltInfo.bone_accessories.includes(acc)) {
         await drawSprite(`acc_bones${acc}`, catSprite, ctx);
-      } else if (peltInfo.butterflies_accessories.includes(acc)) {
-        await drawSprite(`acc_butterflymoth${acc}`, catSprite, ctx);
       } else if (peltInfo.stuff_accessories.includes(acc)) {
         await drawSprite(`acc_twolegstuff${acc}`, catSprite, ctx);
       } else if (peltInfo.beetle_accessories.includes(acc)) {
         await drawSprite(`acc_beetle${acc}`, catSprite, ctx);
-      } else if (peltInfo.beetle_feathers_accessories.includes(acc)) {
-        await drawSprite(`acc_beetlefeathers${acc}`, catSprite, ctx);
-      } else if (peltInfo.ster_accessories.includes(acc)) {
-        await drawSprite(`acc_ster${acc}`, catSprite, ctx);
       } else if (peltInfo.plant2_accessories.includes(acc)) {
         await drawSprite(`acc_plant2${acc}`, catSprite, ctx);
       } else if (peltInfo.snake_accessories.includes(acc)) {
