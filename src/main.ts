@@ -69,6 +69,10 @@ const tortiePatternSelect = getElementByUniqueClassName(
   "tortie-pattern-select",
 ) as HTMLSelectElement;
 
+convertSelectMultipleToCheckboxes(whitePatchesSelect);
+convertSelectMultipleToCheckboxes(accessorySelect);
+convertSelectMultipleToCheckboxes(scarSelect);
+
 const lineartSelect = getElementByUniqueClassName(
   "lineart-select",
 ) as HTMLSelectElement;
@@ -138,6 +142,9 @@ function setFormFromObject(data: CatData) {
   selectByValue(vitiligoSelect, data.vitiligo, false);
   selectByValue(accessorySelect, data.accessory, false);
   selectByValue(scarSelect, data.scar, false);
+  whitePatchesSelect.dispatchEvent(new Event("sync-checkboxes"));
+  accessorySelect.dispatchEvent(new Event("sync-checkboxes"));
+  scarSelect.dispatchEvent(new Event("sync-checkboxes"));
 }
 
 function getDataURL() {
@@ -322,6 +329,7 @@ for (const randomButton of randomButtons) {
       randomizeSelected(select);
     }
     randomizeSelected(select);
+    select.dispatchEvent(new Event("sync-checkboxes"));
     redrawCat();
   });
 }
@@ -432,6 +440,9 @@ getElementByUniqueClassName("randomize-all-button")?.addEventListener(
     } else {
       reverseCheckbox.checked = false;
     }
+    whitePatchesSelect.dispatchEvent(new Event("sync-checkboxes"));
+    accessorySelect.dispatchEvent(new Event("sync-checkboxes"));
+    scarSelect.dispatchEvent(new Event("sync-checkboxes"));
 
     redrawCat();
   },
@@ -479,3 +490,68 @@ addEventListener("popstate", () => {
 });
 
 applyDataURL();
+
+function convertSelectMultipleToCheckboxes(select: HTMLSelectElement) {
+  const container = document.createElement("div");
+  container.className = "checkbox-list-container";
+  const checkboxes: HTMLInputElement[] = [];
+
+  function syncToSelect() {
+    const options = Array.from(select.options);
+    const validOptions = options.filter(o => o.value !== "");
+    checkboxes.forEach((cb, i) => {
+      cb.checked = validOptions[i].selected;
+    });
+  }
+
+  Array.from(select.children).forEach(child => {
+    if (child.tagName === "OPTGROUP") {
+      const optgroup = child as HTMLOptGroupElement;
+      const groupTitle = document.createElement("div");
+      groupTitle.className = "checkbox-group-title";
+      groupTitle.textContent = optgroup.label;
+      container.appendChild(groupTitle);
+
+      Array.from(optgroup.children).forEach(opt => {
+        const option = opt as HTMLOptionElement;
+        if (option.value === "") return;
+        container.appendChild(createCheckbox(option));
+      });
+    } else if (child.tagName === "OPTION") {
+      const option = child as HTMLOptionElement;
+      if (option.value === "") return;
+      container.appendChild(createCheckbox(option));
+    }
+  });
+
+  function createCheckbox(option: HTMLOptionElement) {
+    const label = document.createElement("label");
+    label.className = "custom-checkbox-label";
+
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.value = option.value;
+    cb.checked = option.selected;
+
+    cb.addEventListener("change", () => {
+      option.selected = cb.checked;
+      select.dispatchEvent(new Event("change"));
+    });
+
+    const checkmark = document.createElement("span");
+    checkmark.className = "custom-checkmark";
+
+    const text = document.createTextNode(option.textContent || option.value);
+
+    label.appendChild(cb);
+    label.appendChild(checkmark);
+    label.appendChild(text);
+    checkboxes.push(cb);
+    
+    return label;
+  }
+
+  select.style.display = "none";
+  select.parentNode?.insertBefore(container, select.nextSibling);
+  select.addEventListener("sync-checkboxes", syncToSelect);
+}
