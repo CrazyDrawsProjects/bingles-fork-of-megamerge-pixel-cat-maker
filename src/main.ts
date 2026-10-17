@@ -72,6 +72,7 @@ const tortiePatternSelect = getElementByUniqueClassName(
 convertSelectMultipleToCheckboxes(whitePatchesSelect);
 convertSelectMultipleToCheckboxes(accessorySelect);
 convertSelectMultipleToCheckboxes(scarSelect);
+convertSelectMultipleToCheckboxes(tortieMaskSelect);
 
 const lineartSelect = getElementByUniqueClassName(
   "lineart-select",
@@ -156,7 +157,9 @@ function setFormFromObject(data: CatData) {
   reverseCheckbox.checked = data.reverse;
 
   selectByValue(backgroundColourSelect, data.backgroundColour, true);
-  selectByValue(tortieMaskSelect, data.tortieMask, false);
+  if (data.tortieMask !== null) {
+    selectByValue(tortieMaskSelect, data.tortieMask, false);
+  }
   selectByValue(tortieColourSelect, data.tortieColour, false);
   selectByValue(tortiePatternSelect, data.tortiePattern, false);
   selectByValue(peltNameSelect, data.peltName, true);
@@ -210,7 +213,11 @@ function redrawCat(applyURL: boolean = true) {
 
   catData.isTortie = isTortieCheckbox.checked;
   // pattern - represents mask
-  catData.tortieMask = tortieMaskSelect.value;
+  const tortieMasks = Array.from(tortieMaskSelect.selectedOptions)
+    .map(opt => opt.value)
+    .filter(val => val !== "");
+  catData.tortieMask =
+    tortieMasks.length > 1 ? tortieMasks : tortieMasks[0] ?? null;
   // tortieColour - represents masked pelt colour
   catData.tortieColour = tortieColourSelect.value;
   // tortiePattern - represents masked pelt name
@@ -250,6 +257,7 @@ function redrawCat(applyURL: boolean = true) {
     tortieMaskSelect.disabled = true;
     tortiePatternSelect.disabled = true;
   }
+  tortieMaskSelect.dispatchEvent(new Event("sync-checkboxes"));
 
   var isDead: boolean = false;
   var isDf: boolean = false;
@@ -504,6 +512,7 @@ getElementByUniqueClassName("randomize-all-button")?.addEventListener(
     whitePatchesSelect.dispatchEvent(new Event("sync-checkboxes"));
     accessorySelect.dispatchEvent(new Event("sync-checkboxes"));
     scarSelect.dispatchEvent(new Event("sync-checkboxes"));
+    tortieMaskSelect.dispatchEvent(new Event("sync-checkboxes"));
 
     redrawCat();
   },
@@ -562,6 +571,7 @@ function convertSelectMultipleToCheckboxes(select: HTMLSelectElement) {
     const validOptions = options.filter(o => o.value !== "");
     checkboxes.forEach((cb, i) => {
       cb.checked = validOptions[i].selected;
+      cb.disabled = select.disabled;
     });
   }
 
