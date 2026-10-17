@@ -169,19 +169,12 @@ async function drawCat(
       tortiePattern = pelt.tortiePattern;
     }
 
-    const tortieMasks = Array.isArray(pelt.pattern)
-      ? pelt.pattern
-      : pelt.pattern === undefined
-        ? []
-        : [pelt.pattern];
-    for (const mask of tortieMasks) {
-      await drawMaskedSprite(
-        `${tortiePattern}${pelt.tortieColour}`,
-        `tortiemask${mask}`,
-        catSprite,
-        ctx,
-      );
-    }
+    await drawMaskedSprite(
+      `${tortiePattern}${pelt.tortieColour}`,
+      `tortiemask${pelt.pattern}`,
+      catSprite,
+      ctx,
+    );
   }
 
   if (

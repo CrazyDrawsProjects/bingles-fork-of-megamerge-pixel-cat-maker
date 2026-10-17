@@ -2,7 +2,7 @@ type Pelt = {
   name: string;
   colour: string;
   skin: string;
-  pattern?: Array<string> | undefined;
+  pattern?: string | undefined;
   tortieBase?: string | undefined;
   tortiePattern?: string | undefined;
   tortieColour?: string | undefined;
@@ -29,7 +29,7 @@ type JSONData = {
   vitiligo: string | null;
   points: string | null;
   white_patches_tint: string;
-  pattern: string | string[] | null;
+  pattern: string | null;
   tortie_base: string | null;
   tortie_pattern: string | null;
   tortie_color: string | null;
