@@ -4942,7 +4942,7 @@ function generateTortiePattern(child: Pelt) {
       child.tortieBase = choice(tortiebases);
     }
     if (child.pattern === undefined) {
-      child.pattern = choice(tortiepatterns);
+      child.pattern = [choice(tortiepatterns)];
     }
 
     if (child.colour) {

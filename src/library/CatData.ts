@@ -119,7 +119,7 @@ class CatData {
   isTortie: boolean;
 
   backgroundColour: string;
-  tortieMask: string | null;
+  tortieMask: string | string[] | null;
   tortieColour: string | null;
   tortiePattern: string | null;
 
@@ -193,7 +193,11 @@ class CatData {
       reverse: this.reverse,
 
       tortieBase: nameToSpritesname[peltName],
-      pattern: this.tortieMask === null ? undefined : this.tortieMask,
+      pattern: this.tortieMask === null
+        ? undefined
+        : Array.isArray(this.tortieMask)
+          ? this.tortieMask
+          : [this.tortieMask],
       tortiePattern: nameToSpritesname[tortiePattern],
       tortieColour: this.tortieColour === null ? undefined : this.tortieColour,
 
@@ -251,7 +255,12 @@ class CatData {
     params.append("isTortie", this.isTortie.toString());
     params.append("backgroundColour", this.backgroundColour);
 
-    params.append("tortieMask", this.tortieMask === null ? "" : this.tortieMask);
+    const tortieMasks = this.tortieMask === null
+      ? [""]
+      : Array.isArray(this.tortieMask)
+        ? this.tortieMask
+        : [this.tortieMask];
+    tortieMasks.forEach(mask => params.append("tortieMask", mask));
     params.append("tortieColour", this.tortieColour === null ? "" : this.tortieColour);
     params.append("tortiePattern", this.tortiePattern === null ? "" : this.tortiePattern);
 
@@ -333,7 +342,7 @@ class CatData {
       const peltName = params.get("peltName");
       const tortiePattern = params.get("tortiePattern");
       const tortieColour = params.get("tortieColour");
-      const tortieMask = params.get("tortieMask");
+      const tortieMasks = params.getAll("tortieMask").filter(mask => mask !== "");
       const backgroundColour = params.get("backgroundColour");
 
       const isTortie = params.get("isTortie");
@@ -389,8 +398,9 @@ class CatData {
       if (tortieColour) {
         catData.tortieColour = tortieColour;
       }
-      if (tortieMask) {
-        catData.tortieMask = tortieMask;
+      if (params.has("tortieMask")) {
+        catData.tortieMask =
+          tortieMasks.length === 1 ? tortieMasks[0] : tortieMasks;
       }
       if (backgroundColour) {
         catData.backgroundColour = backgroundColour;
